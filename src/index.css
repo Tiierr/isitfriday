@@ -1,0 +1,61 @@
+:root {
+    --yellow: #ffe411;
+    --light: #fff5af;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400&display=swap');
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+html {
+    overflow: hidden;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.App {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: var(--dark);
+    overflow: hidden;
+    background: linear-gradient(var(--yellow), var(--light));
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+body {
+    background: var(--bright);
+    color: var(--bright);
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Date {
+    font-size: 3vh;
+    margin-left: 8vw;
+    margin-top: 15vh;
+}
+
+.Title {
+    font-size: 2.8vh;
+    margin-left: 8vw;
+    margin-bottom: 6vw;
+}
+
+.Desc {
+    font-size: 20vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
